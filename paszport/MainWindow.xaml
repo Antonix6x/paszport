@@ -7,12 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Teal">
-        <TextBox HorizontalAlignment="Left" Margin="122,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Height="40"/>
-        <TextBox HorizontalAlignment="Left" Margin="122,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Height="40"/>
-        <TextBox HorizontalAlignment="Left" Margin="122,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Height="40"/>
+        <TextBox HorizontalAlignment="Left" Margin="122,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="30"/>
+        <TextBox HorizontalAlignment="Left" Margin="122,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="30"/>
+        <TextBox HorizontalAlignment="Left" Margin="122,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="30"/>
         <TextBlock HorizontalAlignment="Left" Margin="25,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="64" FontWeight="Bold"><Run Language="pl-pl" Text="Numer"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="25,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="64" FontWeight="Bold"><Run Language="pl-pl" Text="Nazwisko"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="25,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="64" FontWeight="Bold"><Run Language="pl-pl" Text="Imię"/></TextBlock>
+        <GroupBox Header="kolor oczu" Margin="24,217,400,30">
 
+        </GroupBox>
+        <RadioButton x:Name="Niebieskie" Content="Niebieskie" HorizontalAlignment="Left" Margin="35,246,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Zielone" Content="Zielone" HorizontalAlignment="Left" Margin="35,281,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Piwne" Content="Piwne" HorizontalAlignment="Left" Margin="35,328,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

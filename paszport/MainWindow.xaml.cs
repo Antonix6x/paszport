@@ -20,5 +20,10 @@ namespace paszport
         {
             InitializeComponent();
         }
+
+        private void niebieskie_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
