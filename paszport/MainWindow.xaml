@@ -19,5 +19,18 @@
         <RadioButton x:Name="Niebieskie" Content="Niebieskie" HorizontalAlignment="Left" Margin="35,246,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="Zielone" Content="Zielone" HorizontalAlignment="Left" Margin="35,281,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="Piwne" Content="Piwne" HorizontalAlignment="Left" Margin="35,328,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="173" Margin="456,54,0,0" VerticalAlignment="Top" Width="130"/>
+        <Image HorizontalAlignment="Left" Height="173" Margin="456,54,0,0" VerticalAlignment="Top" Width="130"/>
+        <Image x:Name="zdjecie" HorizontalAlignment="Left" Height="173" Margin="439,54,0,0" VerticalAlignment="Top" Width="130" Source="/333-zdjecie.jpg"/>
+        <Image HorizontalAlignment="Left" Height="154" Margin="634,56,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="0.5,0.5" Source="/333-odcisk.jpg">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.316"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Window>
